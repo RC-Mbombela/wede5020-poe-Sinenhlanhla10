@@ -95,3 +95,177 @@ footer {
     padding: 20px;
     background: black;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+    background-color: black;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+}
+
+.logo {
+    font-size: 28px;
+    color: gold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: silver;
+}
+
+.nav-links a:active {
+    color: pink;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: silver;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px dotted silver;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid silver;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    background-color: silver;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    margin-top: 40px;
+}
