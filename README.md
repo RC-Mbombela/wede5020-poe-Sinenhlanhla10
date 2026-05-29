@@ -12,24 +12,24 @@ UTP VIDA MEDIA is a creative media company specialising in photography, videogra
 - Contact Page
 
 
-## Changelog
+# Changelog
 
-# Version 1.0
+## Version 1.0
 - Created homepage
 - Added navigation menu
 - Added About and Services pages
 
-# Version 1.1
+## Version 1.1
 - Improved homepage styling
 - Added background images
 - Added animations and hover effects
 
-# Version 1.2
+## Version 1.2
 - Added Gallery page
 - Added Contact form
 - Added Terms & Conditions page
 
-# Version 1.3
+## Version 1.3
 - Fixed image display issues
 - Updated service packages
 - Finalised website for submission
