@@ -10,6 +10,7 @@ UTP VIDA MEDIA is a creative media company specialising in photography, videogra
 - Services Page
 - Gallery Page
 - Contact Page
+- Terms and Conditions Page
 
 
 # Changelog
