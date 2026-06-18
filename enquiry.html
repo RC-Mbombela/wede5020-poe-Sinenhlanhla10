@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Service Enquiry | UTP VIDA MEDIA</title>
+    <meta name="description"
+        content="Enquire about photography and videography packages offered by UTP VIDA MEDIA.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">UTP VIDA MEDIA</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="enquiry-section">
+        <h2>Service Enquiry Form</h2>
+        <form id="enquiryForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <select id="service" required>
+                <option value="">Select Service</option>
+                <option value="700">Individual Photography - R700</option>
+                <option value="1500">Group Photography - R1500</option>
+                <option value="3500">Wedding Photography - R3500</option>
+                <option value="1000">Modelling Portfolio - R1000</option>
+            </select>
+
+            <input type="date" id="date" required>
+            <button type="button" onclick="calculatePrice()">
+                Check Availability & Cost
+            </button>
+
+        </form>
+
+        <div id="result"></div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
