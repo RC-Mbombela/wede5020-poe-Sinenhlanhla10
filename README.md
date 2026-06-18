@@ -48,7 +48,7 @@ Improved mobile responsiveness
 Updated contact form with message categories
 Prepared website for deployment using GitHub Pages
 
-References
+##References
 Font Awesome. 2024. Font Awesome Icons. Available at: https://fontawesome.com/ [Accessed 18 June 2026].
 Mozilla Developer Network (MDN). 2024. HTML Documentation. Available at: https://developer.mozilla.org/ [Accessed 18 June 2026].
 W3Schools. 2024. HTML, CSS and JavaScript Tutorials. Available at: https://www.w3schools.com/ [Accessed 18 June 2026].
