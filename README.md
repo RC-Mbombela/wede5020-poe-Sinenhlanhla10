@@ -68,6 +68,18 @@ The website:
 * Updated contact form with message categories.
 * Prepared website for deployment using GitHub Pages.
 
+## Version 1.5
+
+- Enhanced the navigation bar with improved spacing, hover effects, active page highlighting, and sticky navigation.
+- Improved text readability across the website to enhance the user experience.
+- Added descriptive image alternative (alt) text to improve accessibility and search engine optimisation (SEO).
+- Refined page layouts and styling based on lecturer feedback.
+- Enhanced contact and enquiry functionality using JavaScript.
+- Implemented additional SEO features, including meta descriptions, image optimisation, robots.txt, and sitemap.xml.
+- Improved mobile responsiveness and overall website usability.
+- Reviewed and documented AI usage in accordance with academic requirements.
+- Successfully deployed and tested the website using Netlify.
+- Conducted final testing and quality assurance to ensure all website features function correctly.
 
 # References
 
