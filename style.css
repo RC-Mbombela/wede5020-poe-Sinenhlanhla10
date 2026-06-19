@@ -13,8 +13,17 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    background: black;
+    align-items: center;
+
+    padding: 18px 40px;
+
+    background-color: black;
+
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .nav-links {
@@ -62,11 +71,13 @@ body {
 .hero h1 {
     font-size: 60px;
     animation: fadeInDown 1.5s ease-in-out;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
 }
 
 .hero p {
     font-size: 20px;
     animation: fadeInUp 2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 @keyframes fadeInDown {
@@ -250,34 +261,56 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding: 15px 30px;
+    padding: 18px 40px;
+
     background-color: black;
+
     box-shadow: 0px 4px 8px rgba(0,0,0,0.5);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
-    font-size: 28px;
+    font-size: 30px;
     color: gold;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    align-items: center;
 }
 
 .nav-links a {
+
     text-decoration: none;
+
     color: white;
+    
+    font-weight: bold;
+
+    padding: 8px 15px;
+
+    border-radius: 5px;
+
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: silver;
+
+    color: black;
 }
 
-.nav-links a:active {
-    color: pink;
+.active {
+
+    background-color: gold;
+
+    color: black !important;
 }
 
 .hero {
@@ -310,10 +343,12 @@ body {
 
 .hero h2 {
     font-size: 50px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
 }
 
 .hero p {
     font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
 }
 
 .btn {
@@ -423,15 +458,20 @@ footer {
 .about-text {
     flex: 1;
     min-width: 300px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .about-text h2 {
     color: gold;
     font-size: 40px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
 }
 
 .about-text p {
     line-height: 1.8;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 .about-image {
@@ -512,6 +552,7 @@ footer {
 .service-card p {
     padding: 0 20px;
     line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
 .service-card ul {
@@ -565,6 +606,7 @@ footer {
 .terms-box p {
     line-height: 1.8;
     margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
 }
 
 .terms-highlight {

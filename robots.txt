@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourusername.github.io/UTP-VIDA-MEDIA/sitemap.xml
+Sitemap: https://resilient-longma-51604e.netlify.app/sitemap.xml
